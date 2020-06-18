@@ -10,7 +10,6 @@ class RestaurantsController < ApplicationController
   def show
   end
 
-   GET /restaurants/new
   def new
     @restaurant = Restaurant.new
   end
